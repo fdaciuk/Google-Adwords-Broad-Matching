@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Google Adwords Broad Matching</title>
+
+    <style>
+        body {
+            padding: 30px;
+        }
+
+        textarea {
+            border: 1px solid #aaa;
+            font: 14px sans-serif;
+            height: 200px;
+            padding: 10px;
+            resize: none;
+            width: 100%;
+        }
+
+        button {
+            border: 2px solid #3d5da9;
+            background: #5f8eff;
+            color: #fff;
+            cursor: pointer;
+            font: 20px sans-serif;
+            height: 60px;
+            margin: 20px 0;
+            text-transform: uppercase;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<textarea id="in" cols="30" rows="10" placeholder="Paste your keywords here"></textarea>
+<button type="button">Convert</button>
+<textarea id="out" cols="30" rows="10" disabled></textarea>
+
+
+<script>
+    ;(function( window, document, undefined ) {
+        var Gabm = (function() {
+            var $in = document.querySelector( '#in' );
+            var $out = document.querySelector( '#out' );
+            var $button = document.querySelector( 'button' );
+
+            $button.addEventListener( 'click', function() {
+                $out.value = '+' + $in.value.split( ' ' ).join( ' +' ).split( '\n' ).join( '\n+' );
+            }, false );
+        })();
+    })( window, document );
+</script>
+</body>
+</html>
