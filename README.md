@@ -2,6 +2,8 @@
 
 Add a '+' before each word.
 
+Online version: [https://rawgithub.com/fdaciuk/Google-Adwords-Broad-Matching/master/index.html](https://rawgithub.com/fdaciuk/Google-Adwords-Broad-Matching/master/index.html)
+
 ## Installation
 
 You need to have NodeJS installed. Download the [NodeJS here](http://nodejs.org/download/) and follow the instructions for installation.
