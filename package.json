@@ -1,0 +1,8 @@
+{
+  "name": "google-adwords-broad-matching",
+  "version": "0.0.1",
+  "description": "Add a '+' before each word.",
+  "main": "app.js",
+  "author": "Fernando Daciuk",
+  "license": "MIT"
+}
