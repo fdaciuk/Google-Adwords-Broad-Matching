@@ -21,4 +21,4 @@ node app.js
 
 When you receive the message `"Done!"` Check the file keywords.txt. The words are already ready to paste in Google Adwords :)
 
-> PS. If the answer of the above command is `"! File OK"`, your file was already formatted with the "+" character before each word.
+> PS. If the answer of the above command is `"File OK!"`, your file was already formatted with the "+" character before each word.
