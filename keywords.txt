@@ -1,0 +1,4 @@
+linha1 linha1palavra2 linha1palavra3
+linha2 linha2palavra2
+linha3 linha3palavra2
+linha4 linha4palavra2
