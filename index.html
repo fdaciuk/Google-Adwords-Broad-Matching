@@ -38,17 +38,16 @@
 
 
 <script>
-    ;(function( window, document, undefined ) {
-        var Gabm = (function() {
-            var $in = document.querySelector( '#in' );
-            var $out = document.querySelector( '#out' );
-            var $button = document.querySelector( 'button' );
+    ;(function() {
+        var doc = document;
+        var $in = doc.querySelector( '#in' );
+        var $out = doc.querySelector( '#out' );
+        var $button = doc.querySelector( 'button' );
 
-            $button.addEventListener( 'click', function() {
-                $out.value = '+' + $in.value.split( ' ' ).join( ' +' ).split( '\n' ).join( '\n+' );
-            }, false );
-        })();
-    })( window, document );
+        $button.addEventListener( 'click', function() {
+            $out.value = '+' + $in.value.split( ' ' ).join( ' +' ).split( '\n' ).join( '\n+' );
+        }, false );
+    })();
 </script>
 </body>
 </html>
